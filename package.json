@@ -1,0 +1,23 @@
+{
+  "name": "@pranjalg420/usemix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc ./index.ts --outDir ./dist --declaration"
+  },
+  "keywords": [],
+  "author": "Pranjal Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
