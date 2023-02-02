@@ -1,6 +1,12 @@
-# usemix
+# useMix
 
 A package to create a cool "mixing effect" on a sample text. The function is automatically run on load, but can be set to run on hover as well.
+
+## Import
+
+```js
+import { useMix } from "@pranjalg420/usemix";
+```
 
 ## Usage
 
@@ -24,3 +30,13 @@ const [text, play] = useMix({
 
 **text**: This text will show the mix effect and finally the sample text. Put this inside a { } in a react JSX element.
 **play**: Running this function will run the mixing effect. It can be used to run on hover over an element.
+
+### Example
+
+Given below is a piece of code that shows how the text and play function can be used with an anchor tag. Using the OnMouseOver event in React, we can execute the mixing effect when the mouse enters the anchor tag region.
+
+```js
+<a href="https://website.com" onMouseOver={play}>
+  {text}
+</a>
+```
