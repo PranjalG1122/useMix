@@ -5,7 +5,7 @@ type useMixProps = {
   tick: number;
   delay: number;
   upper?: boolean;
-};
+}; 
 
 export function useMix(props: useMixProps): [string, () => void] {
   const [text, setText] = useState<string>(props.entry);
